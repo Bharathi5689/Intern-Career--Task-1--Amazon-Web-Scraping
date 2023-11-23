@@ -1,0 +1,64 @@
+Instructions File 
+
+Task 1: Amazon Web Scraping and Scheduling
+
+    This script is designed to scrape product data from Amazon's website, perform data cleaning and analysis, and schedule daily updates at a specified time. It uses Python and several libraries, including requests, BeautifulSoup, Pandas, re and schedule
+  
+  
+Prerequisites:
+    
+    Before starting, ensure the following prerequisites.
+        
+        1. Python 3 installed on your system
+        
+        2. Check for required libraries installed.You can install them using pip
+        
+                " pip install requests BeautifulSoup Pandas schedule "
+
+Usage:
+
+    1. Open a Python environment(e.g Jupyter Notebook, Python IDE) where you will run the script. 
+    2. Copy and paste this code to your Python environment.
+    3. Make sure the code is organized into separate cells for clarity and easy execution.
+    4. Execute the code cell by cell.
+        
+        * Import Libraries
+             
+        * def amazon_scrape()
+        
+        * Function call to scrape
+        
+        * Data  Cleaning and Analysis
+        
+        * def update_daily()
+        
+        * Scheduling the update
+        
+        * Loop for Scheduling
+           
+         
+   This program will execute the web scraping process, clean the data and provide analysis results. The data will be stored in CSV files.
+   
+Scheduling:
+     
+     By default,this program is scheduled to run the update_daily function every day at 12:00 PM. You can adjust the scheduling time by modifying the following line:
+     
+        " schedule.every().day.at("12:00").do(update_daily) "
+
+Output:
+
+    This program will generate the following output:
+
+    1. Scraped data will be saved in a CSV file named "Amazon_data_5pages.csv."
+    
+    2. Cleaned and analyzed data will be saved in a CSV file named "Amazon_data_cleaned.csv."
+    
+    3. Results of data analysis will be printed to the console.
+
+
+
+
+
+
+
+
